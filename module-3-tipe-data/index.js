@@ -49,7 +49,23 @@ function sayGoodbye() {
     return "Selamat tinggal Kekasih";
 }
 
-const output = sayGoodbye
-console.log(output, typeof output);
+// const output = sayGoodbye
+// console.log(output, typeof output);
+
 
 /* Tipe data Refrence End */
+
+/* Latihan */
+
+let namaPengguna = "Joko";
+let usiaPengguna = 25;
+let isLulus = true;
+
+
+tahunLahir = 2025 - usiaPengguna;
+let pesanPerkenalan = `Halo, nama saya ${namaPengguna}. Saya berusia ${usiaPengguna} tahun. Tahun lahir saya adalah ${tahunLahir}. Apakah saya sudah lulus? ${isLulus}`;
+console.log("Nama Pengguna : ", namaPengguna, typeof namaPengguna);
+console.log("Usia Pengguna : ", usiaPengguna, typeof usiaPengguna);
+console.log("Apakah sudah lulus : ", isLulus, typeof isLulus);
+console.log("Tahun Lahir Pengguna : ", tahunLahir);
+console.log(pesanPerkenalan);
