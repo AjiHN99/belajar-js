@@ -10,7 +10,9 @@ let nilai = !0;
 console.logo(nilai, typeof nilai); // true boolean
 
 // explicit conversion
-let nilaiString = String(123);
-console.log(nilaiString, typeof nilaiString); // "123" string
+let strTinggiBadan = "180cm";
+
+let numTinggiBadan = parseInt(strTinggiBadan);
+console.log("Perubahan Tinggi Badan: ", typeof numTinggiBadan); // "123" string
 
 
